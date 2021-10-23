@@ -1,0 +1,24 @@
+<main>
+  <section id="showcase">
+    <div class="container">
+      <h1>{{title}}</h1>
+      <p>{{par}}</p>
+    </div>
+    {{#if coord}}
+    <h3>{{coord}}</h3>
+    {{/if}}
+  </section>
+
+    <section id="newsletter">
+      
+    <div class="container">
+      <h1>{{text}}</h1>
+{{#if weather}}
+      <form action="/" method="get">
+        <input type="text" placeholder="Enter city" name="city" required>
+        <button type="submit" class="button_1">search</button>
+      </form>
+{{/if}}
+    </div>
+  </section>
+</main>
