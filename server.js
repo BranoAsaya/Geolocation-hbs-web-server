@@ -63,7 +63,8 @@ app.get("/About", (req, res) => {
   res.render("content", {
     title: "About",
     par:'by BRANO ASAYA',
-    text:"The Maestro"
+    text:"The Maestro",
+    pic:true,
 
 
   });

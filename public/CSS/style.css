@@ -76,6 +76,10 @@ body {
   main h3{
     color: black;
   }
+  main h3 img{
+    width: 100px;
+    height: 100px;
+  }
   
   #showcase {
     height: 400px;
